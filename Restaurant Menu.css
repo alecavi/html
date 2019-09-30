@@ -1,0 +1,50 @@
+#RestaurantName
+{
+  color: red;
+  font-weight: bolder;
+  font-size: 36px;
+  text-align: center;
+}
+
+#navbar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#navbar li
+{
+  display: inline-block;
+  border-style: solid;
+  border-color: darkgreen;
+  padding: 20px;
+}
+
+#navbar a
+{
+  text-decoration: none;
+  color: black;
+}
+
+#navbar li:hover
+{
+  background-color: lightgreen;
+}
+
+.Menu > *
+{
+  text-align: center;
+}
+
+.Menu > p
+{
+  line-height: 5px
+}
+
+.Menu span
+{
+  display: inline-block;
+  width: 200px;
+}
